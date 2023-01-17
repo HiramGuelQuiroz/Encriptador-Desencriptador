@@ -1,0 +1,436 @@
+.fondo{
+    background-color: #f3f5fc;
+    height: 1024px;
+    width: 1440px;
+    margin: 10px auto;
+}
+
+.contenedorprincipal{
+    width: 1420px;
+    height: 1020px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: 1;
+}
+
+.cuadroizquierdo{
+    width: 800px;
+    height: 900px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#logo{
+width: 120px;
+height: 48px;
+margin-top: 50px;
+}
+
+#input{
+border: none;
+resize: none;
+width: 336px;
+height: 100%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #343A40;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 30px;
+margin-left: 30px;
+margin: 0 auto;
+}
+
+.divtexto{
+width: 477px;
+height: 298px;
+margin-left: 200px;
+margin-top: 100px;
+}
+
+#texto{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+border: none;
+resize: none;
+color: #0A3871;
+background-color: #f3f5fc;
+}
+
+.frame3{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 100%;
+height: 77px;
+}
+
+.rectangle1{
+width: 350px;
+height: 594px;
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+margin: 20px auto;
+}
+
+#muñeco{
+margin: auto;
+width: 336px;
+height: 304px;
+margin-top: 100px;
+}
+
+.frame5{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+margin-top: 30px;
+}
+
+#ningunmensaje{
+width: 336px;
+height: 100%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+text-align: center;
+color: #343A40;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 30px;
+margin-left: 30px;
+margin: 0 auto;
+}
+
+#ingresatexto{
+width: 336px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #495057;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 0 auto;
+}
+
+.frameprincipal{
+  width: 300px;
+  height: 200px;
+}
+
+.frame1{
+margin: 10px;
+left: 100px;
+top: 450px;
+width: 329px;
+height: 18px;
+align-items: center;
+}
+
+#letras{
+width: 205px;
+height: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #495057;
+opacity: 0.8;
+text-align: center;
+}
+
+#boton1{
+padding: 24px;
+gap: 8px;
+width: 280px;
+height: 68px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+background: #0A3871;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#boton1texto{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+margin: auto;
+}
+
+#boton2{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+box-sizing: border-box;
+padding: 24px;
+gap: 8px;
+width: 280px;
+height: 67px;
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#boton2texto{
+width: 280px;
+height: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #0A3871;
+margin: auto;
+}
+
+.cajabotones{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+#botonCopiar{
+display: none;
+flex-direction: row;
+align-items: flex-start;
+box-sizing: border-box;
+padding: 24px;
+gap: 8px;
+width: 280px;
+height: 67px;
+background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px auto;
+}
+
+#botonCopiarTexto{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #0A3871;
+margin: auto;
+}
+
+@media screen and (max-width:768px){
+
+   .rectangle1{
+    height: auto;
+    width: 500px;
+    margin: 15px auto;
+   }
+
+   .contenedorprincipal{
+    height: 1170px;
+    width: 768px;
+   }
+
+   #muñeco{
+    display: none;
+   }
+
+   .divtexto{
+    height: 550px;
+   }
+
+   #ningunmensaje{
+    font-size: 35px;
+    height: 100%;
+    }
+
+    #botonCopiarTexto{
+    font-size: auto;
+    margin: auto;
+    }
+
+   .frameprincipal{
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+   }
+
+   .cuadroizquierdo{
+    margin: 0 auto;
+    height: 900px;
+   }
+
+   .fondo{
+    height: 1174px;
+    width: 768px;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width:375px){
+
+    .frame3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    }
+
+    .rectangle1{
+        height: 300px;
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    #muñeco{
+        display: none;
+    }
+
+    .contenedorprincipal{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .cuadroizquierdo{
+        height: 1600px;
+        width: 340px;
+    }
+
+    .divtexto{
+        width: 350px;
+        height: 900px;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    .frameprincipal{
+        width: 780px;
+        height: auto;
+    }
+
+    .frame1{
+        margin: 20px auto;
+    }
+
+    #boton1{
+        width: 100%;
+        height: 150px;
+        padding: 0px;
+    }
+
+    #boton2{
+        width: 100%;
+        height: 150px;
+    }
+
+    #boton1texto{
+        font-size: 50px;
+    }
+
+    #boton2texto{
+        font-size: 50px;
+    }
+
+    .frame5{
+        width: 800px;
+        margin-top: 30px;
+    }
+
+    #ningunmensaje{
+        font-size: 35px;
+        height: 100%;
+    }
+
+    #ingresatexto{
+        font-size: 30px;
+        width: 100%;   
+    }
+
+    #letras{
+        width: 305px;
+        font-weight: 500;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    .divtexto{
+        width: 650px;
+        height: 998px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    #texto{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 150%;
+        border: none;
+        resize: none;
+        color: #0A3871;
+        background-color: #f3f5fc;
+        width: 650px;
+        height: 900px;
+        margin: 0;
+    }
+
+    #botonCopiar{
+    margin:  auto;
+    width: 90%;
+    height: 120px;
+    }
+    
+    #botonCopiarTexto{
+    font-size: 50px;
+    margin: 20px auto;
+    }
+
+    .fondo{
+        background-color: #f3f5fc;
+        height: 933px;
+        width: 375px;
+    }
+ }

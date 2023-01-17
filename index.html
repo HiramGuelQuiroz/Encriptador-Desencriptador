@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width"> <!--le decimos que adapte el contenido a dispositivos moviles-->
+    <script type="text/javascript" src="/JS/logica.js"></script>
+    <title>Encriptador-1 Desktop</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+
+<body class="fondo">   <!--dos divs metidos en clase fondo con flex para desplegar en columna-->
+ <!--fondo debe llevar poscion relativa para que los div se acomoden usando este como referencia-->
+
+    <div class="contenedorprincipal">
+
+        <div class="cuadroizquierdo"> <!--primer div-->
+
+            <header>
+                <img id = "logo" src="/img/Logo.png" alt="logo">
+            </header>
+            
+            <div class="divtexto">
+                <textarea id="texto" name="texto"cols="25" rows="5" placeholder="Ingrese el texto"></textarea>
+            </div>
+
+            <div class="frameprincipal">
+
+                <div class="frame1">
+                <p id="letras">Solo letras mayusculas y minusculas</p>
+                </div> 
+
+                <div class="frame3">
+                    <button id="boton1">
+                    <p id="boton1texto">Encriptar</p>
+                    </button>
+        
+                    <button id="boton2">
+                    <p id="boton2texto">Desencriptar</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+                
+        <div class="rectangle1">  <!--segundo div-->
+        
+            <img id = "muñeco" src="/img/Muñeco.png" alt="Muñeco">
+        
+            <div class="frame5">
+                 <!--Modificar el estilo del div primero-->
+                    <textarea name="Texto" id="input" cols="40" rows="3">Ningun mensaje fue escrito</textarea>
+                <div id="ingresatexto">
+                    <p>Ingresa texto a encriptar o desencriptar</p>
+                </div>
+                <button id="botonCopiar">
+                    <p id="botonCopiarTexto">Copiar</p>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <script> //Llamada de funciones
+        var btn = document.querySelector("#boton1");//asignamos a btn el id #boton1
+        btn.onclick = encriptar;//cuando clike llamanos a funcion
+
+        var btn2 = document.querySelector("#boton2");
+        btn2.onclick = desencriptar;//cuando clike llamanos a funcion
+
+        var btncopiar = document.querySelector("#botonCopiar");
+        btncopiar.onclick = copiar;//cuando clike llamanos a funcion
+    </script>
+
+</html>
